@@ -40,6 +40,14 @@ $(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("c5yEEHma2_aps0GWr");
+    
+function SendMail() {
+    var params = {
+        from_name : document.getElementById("fullName").value,
+        email_id : document.getElementById("email_id").value, 
+
+        }
+    }
 
         emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form')
             .then(function (response) {
