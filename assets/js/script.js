@@ -38,26 +38,27 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-//     $("#contact-form").submit(function (event) {
-//         emailjs.init("c5yEEHma2_aps0GWr");
     
-// function SendMail() {
+    $.getElementById("#contact-form").submit(function (event) {
+        emailjs.init("c5yEEHma2_aps0GWr");
+    
+// function  {
 //         var params = {
 //             from_name : document.getElementById("fullName").value,
-//             email_id : document.getElementById("email_id").value,}
+// //             email_id : document.getElementById("email_id").value,}
 //     }
 
-//         emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form')
-//             .then(function (response) {
-//                 console.log('SUCCESS!', response.status, response.text);
-//                 document.getElementById("contact-form").reset();
-//                 alert("Form Submitted Successfully");
-//             }, function (error) {
-//                 console.log('FAILED...', error);
-//                 alert("Form Submission Failed! Try Again");
-//             });
-//         event.preventDefault();
-//     });
+        emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form')
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Successfully");
+            }, function (error) {
+                console.log('FAILED...', error);
+                alert("Form Submission Failed! Try Again");
+            });
+        event.preventDefault();
+    });
     // <!-- emailjs to mail contact form data -->
 
 });
