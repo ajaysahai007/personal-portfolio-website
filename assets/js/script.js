@@ -49,7 +49,7 @@ function SendMail() {
         }
     }
 
-        emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form', 'params')
+        emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form', params)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
