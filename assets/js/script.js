@@ -41,11 +41,10 @@ $(document).ready(function () {
     $("#contact-form").submit(function (event) {
         emailjs.init("c5yEEHma2_aps0GWr");
     
-function SendMail() {
-    var params = {
-        from_name : document.getElementById("fullName").value,
-        email_id : document.getElementById("email_id").value, 
-
+    $("#contact-form") {
+        var params = {
+            from_name : document.getElementById("fullName").value,
+            email_id : document.getElementById("email_id").value,
         }
     }
 
