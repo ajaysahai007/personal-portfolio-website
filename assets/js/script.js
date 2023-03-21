@@ -47,13 +47,14 @@ $(document).ready(function () {
         .addEventListener("submit", function (event) {
             emailjs.init("c5yEEHma2_aps0GWr");
     
-// function  {
-//         var params = {
-//             from_name : document.getElementById("fullName").value,
-// //             email_id : document.getElementById("email_id").value,}
-//     }
+function SendMail() {
+        var params = {
+            from_name : document.getElementById("fullName").value,
+            email_id : document.getElementById("email_id").value,
+        }
+    }
 
-        emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form')
+        emailjs.sendForm('service_jg5xjnr', 'template_s0izn4m', '#contact-form', params)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
