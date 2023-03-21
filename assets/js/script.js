@@ -38,9 +38,14 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    document .getElementById("contact-form")
-    $("#contact-form").submit(function (event) {
-        emailjs.init("c5yEEHma2_aps0GWr");
+    // document .getElementById("contact-form")
+    // $("#contact-form").submit(function (event) {
+    //     emailjs.init("c5yEEHma2_aps0GWr");
+    
+    document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+            emailjs.init("c5yEEHma2_aps0GWr");
     
 // function  {
 //         var params = {
