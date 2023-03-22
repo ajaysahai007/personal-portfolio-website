@@ -1253,6 +1253,31 @@ form .button-area {
   z-index: 1;
 }
 
+.main-chat-box .traingle-shadow {
+  width: 70px;
+  height: 88px;
+  position: absolute;
+  overflow: hidden;
+  bottom: -74px;
+  right: -14px;
+  box-shadow: 0 16px 10px -28px rgba(0, 0, 0, 0);
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+.main-chat-box .traingle-shadow ::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  top: 75px;
+  left: 25px;
+  box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0);
+}
+
+
 /* WhatsApps */
 
 
