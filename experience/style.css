@@ -505,7 +505,7 @@ header .navbar ul li a:hover{
   bottom: 20px;
   right: 20px;
   border-radius: 50px;
-  background-image: url("assets/images/chat_icon.png");
+  background-image: url("./assets/images/chat_icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 60%;
