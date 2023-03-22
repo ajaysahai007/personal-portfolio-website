@@ -1240,6 +1240,26 @@ form .button-area {
   z-index: 2;
 }
 
+.chat-icon.active{
+  background-image: url("/assets/images/closeIcon.png");
+}
+
+.main-chat-box{
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+}
+
+.main-chat-box .traingle-shadow{
+  
+}
+
+/* WhatsApps */
+
+
 .whatsapp_float {
   position: fixed;
   width: 60px;
