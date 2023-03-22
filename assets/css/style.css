@@ -1227,7 +1227,7 @@ form .button-area {
 .chat-icon{
   width: 60px;
   height: 60px;
-  background-color: #ffae00;
+  background-color: #27ecdc;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -1248,7 +1248,7 @@ form .button-area {
   position: fixed;
   right: 20px;
   bottom: 100px;
-  background-color: #fff;
+  background-color: rgb(73, 230, 34);
   display: none;
   z-index: 1;
 }
@@ -1270,7 +1270,7 @@ form .button-area {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #fff;
+  background-color: rgb(224, 24, 24);
   transform: rotate(45deg);
   top: 75px;
   left: 25px;
@@ -1279,7 +1279,7 @@ form .button-area {
 
 .main-chat-box .chatBox {
   width: 200px;
-  background-color: #fff;
+  background-color: rgb(95, 14, 224);
   border-radius: 5px;
   position: relative;
   bottom: 0px;
