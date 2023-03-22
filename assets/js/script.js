@@ -214,6 +214,16 @@ const srtop = ScrollReveal({
     reset: true
 });
 
+<script>
+    $(document).ready(function(){
+        $(".chat-icon").click(function(){
+            $(this).toggleClass("active");
+            $(this).toggleClass("btnblickanim");
+            $(".main-chat-box").toggle();
+        })
+    })
+</script>
+
 /* SCROLL HOME */
 srtop.reveal('.home .content h3', { delay: 200 });
 srtop.reveal('.home .content p', { delay: 200 });

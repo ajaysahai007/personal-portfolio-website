@@ -1340,7 +1340,7 @@ form .button-area {
 
 /* WhatsApps */
 
-
+/* 
 .whatsapp_float {
   position: fixed;
   width: 60px;
@@ -1357,10 +1357,10 @@ form .button-area {
 }
 .whatsapp-icon {
   margin-top: 16px;
-}
+} */
 
 /* for mobile */
-@media screen and (max-width: 767px){
+/* @media screen and (max-width: 767px){
   .whatsapp-icon {
     margin-top: 10px;
   }
@@ -1371,4 +1371,4 @@ form .button-area {
     right: 10px;
     font-size: 22px;
   }
-}
+} */
