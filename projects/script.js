@@ -107,28 +107,28 @@ getProjects().then(data => {
 
 // 2nd
 
-let paramsDefault = {
-    optionsPopup: {
-        background: '#095E54',
-        color: '#FFFFFF'
-    },
-    optionsIcon: {
-        background: '#24CD63',
-        color: '#FFFFFF'
-    },
-    optionsChat: {
-        buttonTarget: `https://api.whatsapp.com/send?`,
-        message:'Hello everyone',
-        phone:'+917210836365',
-        text: 'Send'
-    },
-    optionsBot: {
-        name: 'Ajay',
-        image: 'https://lh3.googleusercontent.com/ogw/AAEL6sgcsafw0lkpcq47S-AnAjpl3EHUZ4R2LRRb5eOp=s32-c-mo',
-        messageDefault: 'Hi, 👋 how can I help you?',
-        messageTyping: 'is typing...'
-    }
-};
+// let paramsDefault = {
+//     optionsPopup: {
+//         background: '#095E54',
+//         color: '#FFFFFF'
+//     },
+//     optionsIcon: {
+//         background: '#24CD63',
+//         color: '#FFFFFF'
+//     },
+//     optionsChat: {
+//         buttonTarget: `https://api.whatsapp.com/send?`,
+//         message:'Hello everyone',
+//         phone:'+917210836365',
+//         text: 'Send'
+//     },
+//     optionsBot: {
+//         name: 'Ajay',
+//         image: 'https://lh3.googleusercontent.com/ogw/AAEL6sgcsafw0lkpcq47S-AnAjpl3EHUZ4R2LRRb5eOp=s32-c-mo',
+//         messageDefault: 'Hi, 👋 how can I help you?',
+//         messageTyping: 'is typing...'
+//     }
+// };
 
 let timer;
 
