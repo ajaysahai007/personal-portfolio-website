@@ -276,10 +276,6 @@ function timeNow() {
     return timeString.substring(0, 5);
 }
 
-
-
-
-
 // fetch projects end
 
 // Start of Tawk.to Live Chat
