@@ -119,7 +119,7 @@ getProjects().then(data => {
 //     optionsChat: {
 //         buttonTarget: `https://api.whatsapp.com/send?`,
 //         message:'Hello everyone',
-//         phone:'+917210836365',
+//         phone:'+',
 //         text: 'Send'
 //     },
 //     optionsBot: {
