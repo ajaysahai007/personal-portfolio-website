@@ -1231,8 +1231,8 @@ form .button-area {
 .whatsapp_float {
   position: fixed;
   width: 40px;
-  height: 400px;
-  bottom: 500px;
+  height: 40px;
+  bottom: 50px;
   right: 20px;
   background-color: #25d366;
   color: #fff;
