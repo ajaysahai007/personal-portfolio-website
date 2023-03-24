@@ -1269,6 +1269,10 @@ for mobile
   cursor: pointer;
 }
 
+nav ul{
+  flex: 1;
+  text-align: right;
+}
 
 
 
