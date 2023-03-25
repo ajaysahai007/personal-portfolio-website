@@ -40,11 +40,11 @@
         "icon": "https://img.icons8.com/color/48/ffffff/ansible.png"
     },
     {
-        "name": "Play Store",
+        "name": "PlayStore",
         "icon": "https://img.icons8.com/fluency/48/000000/google-play.png"
     },
     {
-        "name": "App Store",
+        "name": "AppleStore",
         "icon": "https://img.icons8.com/fluency/48/000000/apple-app-store.png"
     },
     {
@@ -88,7 +88,7 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Spring",
+        "name": "SpringBoot",
         "icon": "https://img.icons8.com/color/48/000000/spring-logo.png"
     },
     {
