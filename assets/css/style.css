@@ -446,7 +446,7 @@ header .navbar ul li a:hover {
   }
   .about .row {
     padding: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 7rem;
   }
   .about .row .content {
     padding: 1rem;
@@ -1068,7 +1068,7 @@ form .button-area {
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
-    min-height: 70vh;
+    min-height: 50vh;
   }
   .contact .container {
     margin: 3rem 0 2rem 0;
