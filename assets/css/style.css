@@ -363,7 +363,7 @@ header .navbar ul li a:hover {
   margin: 4rem;
   width: 30rem;
   height: auto;
-  border-radius: 20%;
+  border-radius: 10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
@@ -476,7 +476,7 @@ header .navbar ul li a:hover {
   padding: 2rem;
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .skills .container .row {
   display: grid;
@@ -525,7 +525,7 @@ header .navbar ul li a:hover {
     gap: 1rem;
   }
   .skills .container {
-    margin-top: 5px;
+    margin-top: 1px;
     width: 100%;
   }
 }
