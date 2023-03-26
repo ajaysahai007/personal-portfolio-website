@@ -1169,7 +1169,7 @@ form .button-area {
   font-size: 1.5rem;
   animation: pound 0.35s infinite alternate;
 }
-@-webkit-keyframes pound {
+/* @-webkit-keyframes pound {
   to {
     transform: scale(1.1);
   }
@@ -1178,7 +1178,7 @@ form .button-area {
   to {
     transform: scale(1.1);
   }
-}
+} */
 @media (max-width: 450px) {
   .footer .box-container .box {
     margin: 1.5rem;
