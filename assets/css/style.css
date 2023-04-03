@@ -365,7 +365,7 @@ header .navbar ul li a:hover {
   margin: 4rem;
   width: 30rem;
   height: auto;
-  border-radius: 20%;
+  border-radius: 10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
@@ -376,7 +376,7 @@ header .navbar ul li a:hover {
 }
 .about .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  padding: 0rem;
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
@@ -537,7 +537,7 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 0vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -1006,6 +1006,16 @@ form .message textarea {
   padding-left: 47px;
   border: 2px solid rgb(115, 3, 167);
 }
+.form-control.success input{
+  border-color: #2ecc71;
+}
+.form-control.error input{
+  border-color: #e74c3c;
+}
+.form-control small{
+  visibility: hidden;
+}
+
 .field input:focus ~ i,
 .message textarea:focus ~ i {
   color: rgb(115, 3, 167);
