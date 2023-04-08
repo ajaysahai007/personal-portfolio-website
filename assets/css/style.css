@@ -325,23 +325,171 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
+@media (max-width:450px){
   .home .btn {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   .socials {
-    margin-top: 12rem;
+    margin-left: 0rem;
+    margin-top: 10rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+
+  .home .content h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #002057;
+  }
+
   .home .content p {
+    text-align: center;
     font-size: 2.2rem;
   }
   .home .content p span {
+    text-align: center;
     font-size: 2.2rem;
   }
+
+  .home .content h2 span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+
+  .socials {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home .btn:hover {
+    display: block;
+    margin-left: 7rem;
+    margin-right: auto;
+    width: 50%;
+  }
+
 }
+
+@media (min-width:451px) and (max-width: 540px){
+  .home .btn {
+    margin: 2rem 0;
+  }
+  .socials {
+    margin-left: 0rem;
+    margin-top: 10rem;
+  }
+  .home .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home .content h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #002057;
+  }
+
+  .home .content p {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .home .content p span {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .home .content h2 span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+
+  .socials {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home .btn:hover {
+    display: block;
+    margin-left: 7rem;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #menu {
+    display: block;
+  }
+  header .navbar {
+    position: fixed;
+    top: 6.5rem;
+    right: -120%;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #0e0f31;
+  }
+  header .navbar ul {
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    width: 26rem;
+  }
+  header .navbar ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover {
+    padding: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid #011aff;
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle {
+    right: 0;
+  }
+}
+
+@media (min-width:541px) and (max-width: 768px){
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+}
+
+@media (min-width:1025px) and (max-width: 1200px){
+}
+
+@media (min-width:1201px){
+}
+
+
 /* hero media queries ends*/
 /* hero section end */
 
@@ -456,6 +604,26 @@ header .navbar ul li a:hover {
     gap: 0;
   }
 }
+
+@media (max-width:450px){
+
+}
+
+@media (min-width:451px) and (max-width: 540px){
+}
+
+@media (min-width:541px) and (max-width: 768px){
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+}
+
+@media (min-width:1025px) and (max-width: 1200px){
+}
+
+@media (min-width:1201px){
+}
+
 /* about media queries ends*/
 /* about section ends */
 
