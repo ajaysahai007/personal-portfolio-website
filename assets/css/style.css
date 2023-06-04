@@ -1279,7 +1279,7 @@ form .button-area {
 }
 .footer .box-container .box {
   flex: 1 1 20rem;
-  margin: 2.5rem;
+  margin: 0.5rem;
 }
 .footer .box-container .box h3 {
   font-size: 2.5rem;
