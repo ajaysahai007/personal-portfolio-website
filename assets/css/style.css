@@ -1500,5 +1500,145 @@ form .button-area {
   }
 }
 
+################
+
+@media (min-width:451px) and (max-width: 540px){
+}
+
+/* about media queries starts*/
+@media screen and (max-width: 600px) {
+  .about .row .image {
+    margin-top: 2rem;
+  }
+  .about .row .image img {
+    margin: 0 auto;
+    width: 80%;
+    mix-blend-mode: normal;
+  }
+  .about .row {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .about .row .content {
+    padding: 1rem;
+  }
+  .about .row .content .box-container {
+    gap: 0;
+  }
+}
+
+/* about media queries ends*/
+
+
+@media (min-width:541px) and (max-width: 768px){
+  
+    .home .btn {
+      margin: 2rem 0;
+      }
+   
+    .socials {
+      margin-left: 20%;
+      margin-top: 10rem;
+    }
+    
+  
+    .home .image img {
+      display: block;
+      margin-left: 20%;
+      width: 60%;
+    }
+  
+    .home .content h2 {
+      margin-top: 5rem;
+      /* text-align: center; */
+      font-size: 3rem;
+      font-weight: 800;
+      color: #002057;
+    }
+  
+    .home .content p {
+      /* text-align: center; */
+      font-size: 3rem;
+    }
+  
+  
+    .home .content p span {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+  
+  
+  
+    .home .content h2 span {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #ff7b00;
+    }
+  
+  .home .btn {
+    margin-left: 20%;
+    margin-top: 2rem;
+  
+  }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+  
+    .home .btn {
+      margin: 2rem 0;
+      }
+   
+    .socials {
+      margin-left: 20%;
+      margin-top: 10rem;
+    }
+    
+  
+    .home .image img {
+      display: block;
+      margin-left: 20%;
+      width: 60%;
+    }
+  
+    .home .content h2 {
+      margin-top: 5rem;
+      /* text-align: center; */
+      font-size: 3rem;
+      font-weight: 800;
+      color: #002057;
+    }
+  
+    .home .content p {
+      /* text-align: center; */
+      font-size: 3rem;
+    }
+  
+  
+    .home .content p span {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+  
+  
+  
+    .home .content h2 span {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #ff7b00;
+    }
+  
+  .home .btn {
+    margin-left: 20%;
+    margin-top: 2rem;
+  
+  }
+}
+
+@media (min-width:1025px) and (max-width: 1200px){
+  
+
+
+}
+
 
 
