@@ -396,18 +396,18 @@ header .navbar ul li a:hover {
 
   .home .content h2 {
     margin-top: 5rem;
-    text-align: center;
+/*     text-align: center; */
     font-size: 2rem;
     font-weight: 800;
     color: #002057;
   }
 
   .home .content p {
-    text-align: center;
+/*     text-align: center; */
     font-size: 2.2rem;
   }
   .home .content p span {
-    text-align: center;
+/*     text-align: center; */
     font-size: 2.2rem;
   }
 
@@ -1481,7 +1481,7 @@ form .button-area {
   
   
     .home .content p span {
-      text-align: center;
+/*       text-align: center; */
       font-size: 2.2rem;
     }
   
@@ -1563,7 +1563,7 @@ form .button-area {
   
   
     .home .content p span {
-      text-align: center;
+/*       text-align: center; */
       font-size: 2.2rem;
     }
   
@@ -1615,7 +1615,7 @@ form .button-area {
   
   
     .home .content p span {
-      text-align: center;
+/*       text-align: center; */
       font-size: 2.2rem;
     }
   
