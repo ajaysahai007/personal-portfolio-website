@@ -1474,14 +1474,14 @@ form .button-area {
       color: #002057;
     }
   
-    .home .content p {
-      /* text-align: center; */
+/*   .home .content p {
+      text-align: center;
       font-size: 3rem;
     }
   
   
     .home .content p span {
-/*       text-align: center; */
+      text-align: center;
       font-size: 2.2rem;
     }
   
@@ -1492,7 +1492,7 @@ form .button-area {
       font-weight: 800;
       color: #ff7b00;
     }
-  
+   */
   .home .btn {
     margin-left: 20%;
     margin-top: 2rem;
@@ -1548,22 +1548,22 @@ form .button-area {
       width: 60%;
     }
   
-    .home .content h2 {
+/*     .home .content h2 {
       margin-top: 5rem;
-      /* text-align: center; */
+      text-align: center;
       font-size: 3rem;
       font-weight: 800;
       color: #002057;
     }
   
     .home .content p {
-      /* text-align: center; */
+      text-align: center;
       font-size: 3rem;
     }
   
   
     .home .content p span {
-/*       text-align: center; */
+      text-align: center;
       font-size: 2.2rem;
     }
   
@@ -1574,7 +1574,7 @@ form .button-area {
       font-weight: 800;
       color: #ff7b00;
     }
-  
+   */
   .home .btn {
     margin-left: 20%;
     margin-top: 2rem;
@@ -1599,23 +1599,23 @@ form .button-area {
       margin-left: 20%;
       width: 60%;
     }
-  
+/*   
     .home .content h2 {
       margin-top: 5rem;
-      /* text-align: center; */
+      text-align: center;
       font-size: 3rem;
       font-weight: 800;
       color: #002057;
     }
   
     .home .content p {
-      /* text-align: center; */
+      text-align: center;
       font-size: 3rem;
     }
   
   
     .home .content p span {
-/*       text-align: center; */
+      text-align: center;
       font-size: 2.2rem;
     }
   
@@ -1626,7 +1626,7 @@ form .button-area {
       font-weight: 800;
       color: #ff7b00;
     }
-  
+   */
   .home .btn {
     margin-left: 20%;
     margin-top: 2rem;
