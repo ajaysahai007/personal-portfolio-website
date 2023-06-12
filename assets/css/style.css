@@ -1634,7 +1634,7 @@ form .button-area {
   }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
   .home .content h2 span {
   font-size: 3rem;
   font-weight: 800;
