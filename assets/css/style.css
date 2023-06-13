@@ -1500,7 +1500,7 @@ form .button-area {
   }
 }
 
-################
+
 
 @media (min-width:451px) and (max-width: 540px){
 }
@@ -1637,59 +1637,27 @@ form .button-area {
 
 
 
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-  .home .content h2 span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #1100ff;
-  }
-
+  .example {background: red;}
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
-  .home .content h2 span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #ff0040;
-  }
-
+  .example {background: green;}
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
-  .home .content h2 span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #ff00dd;
-  }
+  .example {background: blue;}
+} 
 
-
-  .home .content h2 span {
-    font-size: 5rem;
-    font-weight: 800;
-    color: #ff0080;
-  }
-
-}
-
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
-  .home .content h2 span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #00ccff;
-  }
+  .example {background: orange;}
+} 
 
-}
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
-  .home .content h2 span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #ffd900;
-  }
-
+  .example {background: pink;}
 }
