@@ -326,7 +326,7 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 
-@media (min-width:451px) and (max-width: 540px){
+/* @media (min-width:451px) and (max-width: 540px){
   .home .btn {
     margin: 2rem 0;
   }
@@ -422,9 +422,9 @@ header .navbar ul li a:hover {
   header .navbar.nav-toggle {
     right: 0;
   }
-}
+} */
 
-@media (min-width:541px) and (max-width: 768px){
+/* @media (min-width:541px) and (max-width: 768px){
 }
 
 @media (min-width:769px) and (max-width: 1024px){
@@ -434,7 +434,7 @@ header .navbar ul li a:hover {
 }
 
 @media (min-width:1201px){
-}
+} */
 
 
 /* hero media queries ends*/
@@ -1457,11 +1457,7 @@ for mobile
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   
-  .footer .box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+
 
 
 
