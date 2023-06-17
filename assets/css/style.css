@@ -289,13 +289,13 @@ header .navbar ul li a:hover {
 .social-icons a {
   font-size: 2rem;
   display: inline-block;
-  line-height: 50px;
+  line-height: 44px;
   color: #00d9ff;
   background-color: #09011b;
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 8px;
   border-radius: 100%;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -325,61 +325,8 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-/* @media (max-width:450px){
-  .home .btn {
-    margin: 2rem 0;
-  }
-  .socials {
-    margin-left: 0rem;
-    margin-top: 10rem;
-  }
-  .home .image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
-  .home .content h2 {
-    margin-top: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 800;
-    color: #002057;
-  }
-
-  .home .content p {
-    text-align: center;
-    font-size: 2.2rem;
-  }
-  .home .content p span {
-    text-align: center;
-    font-size: 2.2rem;
-  }
-
-  .home .content h2 span {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #ff7b00;
-  }
-
-  .socials {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  .home .btn:hover {
-    display: block;
-    margin-left: 7rem;
-    margin-right: auto;
-    width: 50%;
-  }
-
-} */
-/* 
-/@media (min-width:451px) and (max-width: 540px){
+@media (min-width:451px) and (max-width: 540px){
   .home .btn {
     margin: 2rem 0;
   }
@@ -493,7 +440,7 @@ header .navbar ul li a:hover {
 /* hero media queries ends*/
 /* hero section end */
 
-/* about section starts
+/* about section starts */
 .about {
   background: rgb(255, 255, 255);
 }
@@ -583,7 +530,7 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
-/* about media queries starts
+/* about media queries starts*/
 @media screen and (max-width: 600px) {
   .about .row .image {
     margin-top: 2rem;
@@ -608,7 +555,7 @@ header .navbar ul li a:hover {
 @media (max-width:450px){
 
 }
- */
+
 @media (min-width:451px) and (max-width: 540px){
 }
 
@@ -1425,7 +1372,7 @@ form .button-area {
   margin-top: 05px;
 }
 
-
+for mobile
 @media screen and (max-width: 767px){
   .whatsapp-icon {
     margin-top: 05px;
@@ -1440,224 +1387,85 @@ form .button-area {
 }
 
 
-/* Dark Mode */
-
 .play-store-image {
   width: 150px;
   height: auto;
 }
 
-
-@media (max-width:450px){
-
-    .home .btn {
-      margin: 2rem 0;
-      }
-   
-    .socials {
-      margin-left: 20%;
-      margin-top: 10rem;
-    }
-    
-  
-    .home .image img {
-      display: block;
-      margin-left: 20%;
-      width: 60%;
-    }
-  
-    .home .content h2 {
-      margin-top: 5rem;
-      /* text-align: center; */
-      font-size: 3rem;
-      font-weight: 800;
-      color: #002057;
-    }
-  
-/*   .home .content p {
-      text-align: center;
-      font-size: 3rem;
-    }
-  
-  
-    .home .content p span {
-      text-align: center;
-      font-size: 2.2rem;
-    }
-  
-  
-  
-    .home .content h2 span {
-      font-size: 3rem;
-      font-weight: 800;
-      color: #ff7b00;
-    }
-   */
-  .home .btn {
-    margin-left: 20%;
-    margin-top: 2rem;
-  
-  }
-}
-
-
-
-@media (min-width:451px) and (max-width: 540px){
-}
-
-/* about media queries starts*/
-@media screen and (max-width: 600px) {
-  .about .row .image {
-    margin-top: 2rem;
-  }
-  .about .row .image img {
-    margin: 0 auto;
-    width: 80%;
-    mix-blend-mode: normal;
-  }
-  .about .row {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .about .row .content {
-    padding: 1rem;
-  }
-  .about .row .content .box-container {
-    gap: 0;
-  }
-}
-
-/* about media queries ends*/
-
-
-@media (min-width:541px) and (max-width: 768px){
-  
-    .home .btn {
-      margin: 2rem 0;
-      }
-   
-    .socials {
-      margin-left: 20%;
-      margin-top: 10rem;
-    }
-    
-  
-    .home .image img {
-      display: block;
-      margin-left: 20%;
-      width: 60%;
-    }
-  
-/*     .home .content h2 {
-      margin-top: 5rem;
-      text-align: center;
-      font-size: 3rem;
-      font-weight: 800;
-      color: #002057;
-    }
-  
-    .home .content p {
-      text-align: center;
-      font-size: 3rem;
-    }
-  
-  
-    .home .content p span {
-      text-align: center;
-      font-size: 2.2rem;
-    }
-  
-  
-  
-    .home .content h2 span {
-      font-size: 3rem;
-      font-weight: 800;
-      color: #ff7b00;
-    }
-   */
-  .home .btn {
-    margin-left: 20%;
-    margin-top: 2rem;
-  
-  }
-}
-
-@media (min-width:769px) and (max-width: 1024px){
-  
-    .home .btn {
-      margin: 2rem 0;
-      }
-   
-    .socials {
-      margin-left: 20%;
-      margin-top: 10rem;
-    }
-    
-  
-    .home .image img {
-      display: block;
-      margin-left: 20%;
-      width: 60%;
-    }
-/*   
-    .home .content h2 {
-      margin-top: 5rem;
-      text-align: center;
-      font-size: 3rem;
-      font-weight: 800;
-      color: #002057;
-    }
-  
-    .home .content p {
-      text-align: center;
-      font-size: 3rem;
-    }
-  
-  
-    .home .content p span {
-      text-align: center;
-      font-size: 2.2rem;
-    }
-  
-  
-  
-    .home .content h2 span {
-      font-size: 3rem;
-      font-weight: 800;
-      color: #ff7b00;
-    }
-   */
-  .home .btn {
-    margin-left: 20%;
-    margin-top: 2rem;
-  
-  }
-}
-
-
-
-
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .example {background: red;}
+@media only screen and (max-width:600px){
+  .home .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home .content h2 {
+    margin-top: 5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #002057;
+  }
+
+  .home .content p {
+    font-size: 2.2rem;
+  }
+  .home .content p span {
+    font-size: 3.2rem;
+  }
+
+  .home .content h2 span {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+
+  .socials {
+    display: block;
+    width: 110%;
+  }
+
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: green;}
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: blue;}
+  
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: orange;}
+ 
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .example {background: pink;}
+  
+  .footer .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
 }
+
+
+
