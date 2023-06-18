@@ -1372,7 +1372,7 @@ form .button-area {
   margin-top: 05px;
 }
 
-for mobile
+
 @media screen and (max-width: 767px){
   .whatsapp-icon {
     margin-top: 05px;
@@ -1445,8 +1445,56 @@ for mobile
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .home .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home .content h2 {
+    margin-top: 5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #002057;
+  }
+
+  .home .content p {
+    font-size: 2.2rem;
+  }
+  .home .content p span {
+    font-size: 3.2rem;
+  }
+
+  .home .content h2 span {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+
+  .socials {
+    display: block;
+    width: 110%;
+  }
+
+
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .skills .container {
+    margin-top: 1px;
+    width: 100%;
+  }
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
